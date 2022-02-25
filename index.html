@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("IMG_20211024_094700.jpg")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Jus de pommes artisanal</h1>
+    <h2><b>2021</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:20%" class="w3-bar-item w3-button">Accueil</a>
+    <a href="#vente" style="width:20%" class="w3-bar-item w3-button">Vente à 2€</a>
+    <a href="#printemps" style="width:20%" class="w3-bar-item w3-button">Le printemps</a>
+    <a href="#récolte" style="width:20%" class="w3-bar-item w3-button">La récolte</a>
+	<a href="#production" style="width:20%" class="w3-bar-item w3-button">La production</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64" id="vente">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Vente à 2€</b></h1>
+    <img class="w3-round" src="lot-12-bouteilles-jus-de-pomme-25cl.jpg" style="width:100%;margin:32px 0">
+    <p><i>La vente d'une partie de la production est utilisé pour amortir les frais de production ainsi que le verre et les capsules neuves. Au prix de 2€ vous devez rapporter la bouteille en verre (de préférence rincée) afin qu'elle soit recyclée.</i>
+    </p><br>
+	<p><i>Une fois le stock épuisé, vous pourrez achetez un autre jus de pommes certifié AB au prix de 2,50€. Ce jus est également consu à partir de pommes à couteaux issue d'un autre verger certifié AB à 2km. Le processus de transformation des pommes en jus est le même car nous utilisons leurs matériel pour les notres. La formule de consigne du verre reste identique.</i>
+    </p><br>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-center" id="printemps">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>Le printemps</b></h1>
+    <div class="w3-row">
+      <div class="w3-half">
+	    <img class="w3-round-large" src="IMG_20210510_161743.jpg" style="width:90%;margin:64px 0">
+        <h2>Le vieux verger</h2>
+        <p>Le verger est situé sur notre terrain</p>
+        <p>Il fait le bonneur de nos abeilles au printemps</p>
+      </div>
+      <div class="w3-half">
+	    <img class="w3-round-large" src="IMG_20210510_161743.jpg" style="width:90%;margin:64px 0">
+        <h2>Le futur verger</h2>
+        <p>Nous plantons régulièrement de nouveaux pommiers (reinette d'armorique, melrose, fil jaune, reinette grise de lorient, reinette grise du canada, reine des reinettes, jonagold, ...) </p>
+        <p>Nous pratiquons aussi la greffe de nos pommiers sur des porte-greffes MM106 ou sur des pommiers francs de notre production</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" id="récolte">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>La récolte</b></h1>
+    <div class="w3-row">
+      <div class="w3-half">
+	    <img class="w3-round-large" src="IMG_20211009_181759.jpg" style="width:90%;margin:64px 0">
+        <h2>Le triage se fait à la main les jours précédents la récolte</h2>
+        <p>Les pommes abimées sont retirée tous les 2 jours et font le plaisir des poules</p>
+        <p>Une tonte est réalisée la veille du ramasse</p>
+      </div>
+      <div class="w3-half">
+	    <img class="w3-round-large" src="IMG_20211023_135201.jpg" style="width:90%;margin:64px 0">
+        <h2>Le ramassage se fait à la main</h2>
+		<p>Les arbres sont vibrés le matin même au tracteur.</p>
+        <p>Nous sommes 4 personnes pour le ramassage.</p>
+        <p>Un autre tri est fait lors de la récolte</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" id="production">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>La production</b></h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HkTxY5hbFHY?controls=0" title="Pressage des pommes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p><i>La transformation des pommes en jus se fait de façon artisanal dans le respect de l'environnement. Nous utilisons le matériel du verger certifié AB qui est juste derrière chez nous. Les pommes sont lavées et triées. Ensuite elles sont broyées puis pressée via une ancienne presse remise aux normes actuelles. Après deux jours en cuve, le jus est pasteurisé entre 78°C et 80°C et mis en bouteille à la main. La DLU est de 2 ans.</i>
+    </p><br>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
